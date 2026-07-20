@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Clock, BookOpen, Target, ChevronRight, Play, Crosshair } from "lucide-react";
+import { Clock, BookOpen, ChevronRight, Play, Crosshair } from "lucide-react";
 import { useExamScores, usePracticeSections, useQuickQuestion } from "@/lib/query/hooks";
 import { Card, Badge, Button, ProgressBar, PageHeader, SectionTitle } from "@/components/ui";
 import { cn } from "@/lib/utils";
